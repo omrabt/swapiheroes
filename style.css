@@ -1,0 +1,50 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Menlo-Regular.ttf) format('truetype');
+}
+  :root{
+      --basic-color: #C9CACC;
+      --green-title: rgb(0, 133, 86);
+      --green-spc: rgb(43, 188, 138);
+      --back-color: #1D1F21;
+  }
+body{
+    font-family: myFirstFont !important;
+    color: var(--basic-color);
+    background-color: var(--back-color) !important;
+}
+p{
+    font-size: 14spx;
+}
+#first-section{
+    margin-top: 8% !important;
+}
+#inputHero{
+    width: 75%;
+}
+#inputHero input{
+    border-radius: 50px !important;
+}
+.name{
+    color: var(--green-spc);
+}
+.cardOne{
+    background-color: transparent !important;
+    color: var(--basic-color)!important;
+    border-color: rgb(116, 116, 52) !important;
+}
+strong{
+    color: var(--green-title) !important;
+}
+.c-w{
+    color: white;
+}
+#toAdd{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    
+}
+.aa{
+
+}
